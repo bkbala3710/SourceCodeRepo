@@ -12,3 +12,4 @@ def form_post(request: Request):
 @app.get("/output")
 def form_post(request: Request):
     return templates.TemplateResponse('output.html', context={'request': request})
+    
