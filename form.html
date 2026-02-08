@@ -2,34 +2,57 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome Page</title>
+    <title>CI/CD GitOps Demo</title>
     <style>
         body {
             font-family: Arial, sans-serif;
+            background: #0f172a;
+            color: #e5e7eb;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .card {
+            background: #020617;
+            padding: 30px;
+            border-radius: 12px;
+            width: 400px;
             text-align: center;
-            margin-top: 50px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.6);
         }
-        .button {
-            background-color: blue;
-            color: white;
-            padding: 10px 20px;
-            font-size: 16px;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
+        h1 {
+            color: #38bdf8;
         }
-        .button:hover {
-            background-color: darkblue;
+        p {
+            font-size: 14px;
+            margin-bottom: 20px;
+        }
+        a {
+            display: inline-block;
+            padding: 10px 18px;
+            background: #22c55e;
+            color: #022c22;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: bold;
+        }
+        a:hover {
+            background: #16a34a;
         }
     </style>
 </head>
 <body>
-
-    <h1>Welcome to Bala's Portfolio</h1>
-    <h1>powered by AWS Eks</h1>
-    <h1>Finally Added a new feature 1</h1>
-    <button class="button" onclick="alert('Hello!')">Hello</button>
-
+    <div class="card">
+        <h1>CI/CD GitOps Demo</h1>
+        <p>
+            This application is deployed using a <br>
+            <b>miniature microservices CI/CD GitOps pipeline</b>
+            on Kubernetes.
+        </p>
+        <a href="/static/CI-CD.pdf" target="_blank">
+            View CI/CD Architecture
+        </a>
+    </div>
 </body>
 </html>
