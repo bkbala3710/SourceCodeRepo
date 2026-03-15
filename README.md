@@ -16,3 +16,5 @@ This setup demonstrates how modern applications move from code commit to Kuberne
 🔹 Traffic is routed through services/load balancer to pods
 
 💡 Though simplified, this architecture mirrors real production microservices pipelines used in enterprises — covering CI, security checks, containerization, GitOps, and Kubernetes deployment.
+
+
